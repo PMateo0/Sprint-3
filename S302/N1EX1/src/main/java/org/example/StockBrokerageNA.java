@@ -1,7 +1,7 @@
 package org.example;
 
 public class StockBrokerageNA extends StockBrokerage{
-    private double fondos = 213441.12;
+    private static double fondos = 213441.12;
 
     public StockBrokerageNA(Broker broker){
         this.broker = broker;

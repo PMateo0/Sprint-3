@@ -1,7 +1,7 @@
 package org.example;
 
 public class Milk {
-    protected double price;
+    private double price;
     private final Converter converter;
 
     public Milk (Converter converter, double price){

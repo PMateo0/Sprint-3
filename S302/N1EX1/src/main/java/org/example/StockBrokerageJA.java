@@ -1,7 +1,7 @@
 package org.example;
 
 public class StockBrokerageJA extends StockBrokerage{
-    private double fondos = 456345.122;
+    private static double fondos = 456345.122;
 
     public StockBrokerageJA(Broker broker){
         this.broker = broker;

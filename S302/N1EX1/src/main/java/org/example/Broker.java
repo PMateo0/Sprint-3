@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Broker {
-    private List<StockBrokerage> stock = new ArrayList<StockBrokerage>();
+    private List<StockBrokerage> stock ;
     private double state;
 
+    public Broker(){
+        stock = new ArrayList<StockBrokerage>();
+    }
     public double getState(){
         return state;
     }
